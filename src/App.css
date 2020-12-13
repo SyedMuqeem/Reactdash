@@ -1,0 +1,496 @@
+.main{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+.left{
+ flex: 1;
+ position: relative;
+ z-index: 2;
+ background-color: rgb(9, 9, 32);
+ border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+ flex-wrap: wrap;
+}
+.profile{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.leftcontents{
+  top: 250px;
+  left: 30px;
+  position: absolute;
+  z-index: 2;
+  flex: 2.5;
+  display: flex;
+  flex-direction: column;
+}
+.linksalign{
+  height: 60px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 50px;
+}
+.links{
+  text-decoration: none;
+  color: white;
+}
+.links:hover{
+  color: gray;
+}
+
+.right{
+ flex: 4;
+ padding: 40px;
+ display: flex;
+ flex: wrap;
+ flex-direction: column;
+
+}
+/* .right> div{
+  border: 0.25px solid;
+} */
+  .right1{
+    flex: 1;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+    .searchicon{
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+  .right2{
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .box{
+      flex: 1;
+      margin-right: 20px;
+      background-color: rgb(240, 240, 245);
+      border-radius: 10px;
+      display: flex;
+    }
+    .box1{
+      flex: 1;
+      margin-right: 20px;
+      background-color: rgb(25, 25, 53);
+      border-radius: 10px;
+      display: flex;
+    }
+      .boxinsideleft{
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+        .boxtop{
+          color: gray;
+        }
+        .boxbottom1{
+          flex: 1;
+          display: flex;align-items: flex-end;
+          font-size: 23px;
+          color: white;
+        }
+        .boxbottom{
+          flex: 1;
+          display: flex;align-items: flex-end;
+          font-size: 23px;
+        }
+      .boxinsideright{
+        flex: 1;
+      }
+      .numberbox{
+        margin: 20px 10px;
+        padding: 5px 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+
+
+      }
+  .right3{
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .revenuebox{
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+    .revenuebox1{
+      flex: 1;
+      display: flex;
+      margin-top: 10px;
+    }
+    .revenuecolor{
+      flex: 1;
+    }
+      .colorbar{
+        height: 30px;
+        width: 10px;
+        background-color: orange;
+        border-radius: 10px;
+      }
+      .colorbar1{
+        height: 30px;
+        width: 10px;
+        background-color: rgb(241, 66, 12);
+        border-radius: 10px;
+      }
+    .revenuecontent{
+      flex: 5;
+      font-size: 12px;
+    }
+      .revenuecontentword{
+        color: gray;
+      }
+      .revenuecontentamount{
+        font-size: 22px;
+        padding: 10px 0px;
+      }
+      .revenuecontentbutton{
+        width: 70px;
+        height: 30px;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .revenuecontentbutton1{
+        width: 70px;
+        height: 30px;
+        background-color: rgb(179, 179, 179);
+        border-radius: 10px;
+        color: rgb(31, 31, 31);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  .revenuegraph{
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .right4{
+    margin: 20px 10px 10px 10px ;
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+  }
+      .bestseller{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+          .bestword{
+            flex: 1;
+            display: flex;
+          }
+          .bestsellerword{
+            flex: 1;
+          }
+          .more{
+            height: 30px;
+            width: 70px;
+            background-color:rgb(231, 231, 231);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            font-size: 12px;
+          }
+          
+          .bestlist{
+            flex: 5;
+            display: flex;
+            flex-direction: column;
+          }
+          .bestlist1{
+            flex: 2;
+            display: flex;
+            color: gray;
+          }
+            .bestitem{
+              flex: 2.5;
+              margin-left: 20px;
+              display: flex;
+              align-items: center;
+              
+            }
+            .bestprice{
+              flex: 1;
+              display: flex;
+              align-items: center;
+            }
+          .bestlist2{
+            flex: 2;
+            display: flex;
+            font-size: 12px;
+            border: 0.25px solid rgb(199, 199, 199);
+            border-top: none;
+            border-right: none;
+            border-left: none;
+
+          }
+          .images{
+            display: flex;
+            align-items: center;
+          }
+
+
+
+
+      .traffic{
+        flex: 0.9;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+      }
+        .traffictop{
+          flex: 3;
+        }
+        .trafficbottom{
+          flex: 2;
+          display: flex;
+        }
+        .trafficbottom1{
+          flex: 1;
+        }
+
+
+
+  .trapezoid {
+    position: absolute;
+    z-index: 1;
+    border-bottom: 70px solid rgb(37, 26, 97);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 125px;
+    top: 330px;
+    left: 167px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-90deg);
+  }
+
+  .circleshape{
+      position: absolute;
+      z-index: 1; 
+      top: 55%; 
+      left: -20%; 
+      /* transform: translate(-50%, -50%); */
+      height: 120px; 
+      width: 240px; 
+      border-radius: 0 0 150px 150px; 
+      background-color:rgb(37, 26, 97);
+      /* -ms-transform: rotate(-20deg); /* IE 9 */
+      transform: rotate(-30deg);
+  }
+  .circleshape1{
+      position: absolute;
+      z-index: 2; 
+      top: 70%; 
+      left: 65%; 
+      /* transform: translate(-50%, -50%); */
+      height: 60px; 
+      width: 120px; 
+      border-radius: 0 0 150px 150px; 
+      /* background-color: rgb(42, 41, 88); */
+      /* -ms-transform: rotate(-20deg); /* IE 9 */
+      transform: rotate(90deg);
+      border: 20px solid;
+      border-color: rgb(245, 77, 48);
+  }
+  .rectangle{
+    position: absolute;
+    z-index: 1; 
+    width: 400px;
+    height: 40px;
+    top: 30%;
+    left: -20%;
+    background-color:rgb(37, 26, 97);
+    transform: rotate(-30deg);
+  }
+  .rectangle1{
+    position: absolute;
+    z-index: 1; 
+    width: 400px;
+    height: 60px;
+    top: 88%;
+    left: -20%;
+    background-color:rgb(37, 26, 97);
+    transform: rotate(-30deg);
+  }
+  .circleshape2{
+    position: absolute;
+    z-index: 2; 
+    top: 5%; 
+    left:85%; 
+    height: 30px; 
+    width: 60px; 
+    border-radius: 0 0 150px 150px; 
+    background-color:rgb(240, 197, 57);
+    transform: rotate(90deg);
+}
+.triangle {
+  position: absolute;
+  z-index: 1;
+	width: 0;
+  height: 0;
+  top: 35%;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(37, 26, 97);
+  transform: rotate(90deg);
+}
+.triangle1 {
+  position: absolute;
+  z-index: 1;
+	width: 0;
+  height: 0;
+  top: 75%;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 100px solid rgb(37, 26, 97);
+  transform: rotate(70deg);
+}
+.triangle2 {
+  position: absolute;
+  z-index: 1;
+	width: 0;
+  height: 0;
+  top: 93%;
+  left: 37%;
+	border-left: 70px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(37, 26, 97);
+}
+.triangle3 {
+  position: absolute;
+  z-index: 1;
+	width: 0;
+  height: 0;
+  top: 20%;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(245, 77, 48);
+  transform: rotate(90deg);
+}
+
+.hexagone{
+  position: absolute;
+  z-index: 3;
+  width: 100px;
+  top:50px;
+  left: 60px;
+}
+.triangle4 {
+  position: absolute;
+  z-index: 1;
+	width: 0;
+  height: 0;
+  top: 10%;
+  left: 37%;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 60px solid rgb(37, 26, 97);
+  transform: rotate(180deg);
+}
+
+.rectangle2{
+  position: absolute;
+  z-index: 1; 
+  width: 400px;
+  height: 60px;
+  top: -0%;
+  left: -20%;
+  background-color:rgb(37, 26, 97);
+  transform: rotate(-20deg);
+}
+.rectangle3{
+  position: absolute;
+  z-index: 1; 
+  width: 200px;
+  height: 100px;
+  top: 0%;
+  left: 25%;
+  background-color:rgb(37, 26, 97);
+  transform: rotate(0deg);
+}
+.hexagone1{
+  position: absolute;
+  z-index: 1;
+  width: 240px;
+  top:-20%;
+  left: 30%;
+  /* transform: rotate(10deg);  */
+}
+.cicledesign{
+  position: absolute;
+  z-index: 3;
+  left: 80%;
+  top: 20%;
+  height: 40px;
+  width: 60px;
+}
+.cicledesign1{
+  position: absolute;
+  z-index: 3;
+  height: 40px;
+  width: 60px;
+  top: 89.5%;
+  left: 9.5%;
+}
+.cicledesign2{
+  position: absolute;
+  z-index: 3;
+  top: 85%;
+  left: 20%;
+  height: 40px;
+  width: 60px;
+}
+.topcircle{
+  display: flex;
+  justify-content: center;
+}
+.circlesmall{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(240, 197, 57);
+  margin: 4px;
+}
+.circlesmall1{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color:  rgb(245, 77, 48);
+  margin: 3px 10px 3px 10px;
+}
+#chart {
+  width: 430px;
+  margin: 35px auto;
+  padding-bottom: 0;
+  margin: 0px;
+}
+#chart1{
+  width:520px;
+}
